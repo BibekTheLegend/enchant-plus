@@ -101,6 +101,7 @@
 
 ---------------------------------------------------------------------
 
+- 0.3.1 PATCH
 - Fixed metadata loading issues.
 - Resolved attribute-related lag issues.
 - Removed unnecessary files.
