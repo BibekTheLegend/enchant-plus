@@ -1,111 +1,76 @@
-- 0.1V Version - Init
-- Common, Rare, Epic, Ultimate, Legendary, Mythical, Special, Aura, Exclusive
-- Added enchantment rarity weights, XP cost scaling, and rarity-based color tags
-  Support for enchantments such as:
-- Speed III, Haste III, Night Vision, Break Reach II, Red Aura.
-  
----------------------------------------------------------------------
-  
-- 0.2V Key Enchants
-- added regeneration enchant
-- added Exp Mastery
-- added infinite lava, water, milk
-- added Curse of Chat
-- fixed issue with break reach 2
-- added Fast Sweeping enchant
-- fixed repair cost
-- added head cosmetic enchant
-- added Fire Resistance I
-- added water breathing, dolphins grace
-- added saturation
-- added max health enchant
-- added Ore/Food Generator
-- added Curse of Slowness
-- added Lucky enchant (fishing rod)
-- added Unbreakable enchant
-- added Lucky enchant
-- added Curse of Unluck
-- added Super Knockback
-- added Burning Time
-- added Advanced Efficiency
-- added Water Mining
-- added Mining Experience Bonus
-- added Mob Experience Bonus
-- added Equipment Drop Bonus
-- added Cursed Attacker
-- added Auto Smelt
-- added Pet Jump
-- improved performance
-- fixed issue with item magnet
-- removed Curse of Chat
-- added pet armor enchants (glowing, regen, health, jump, speed)
-- added Auto Craft
-- added Trident Speed
-- added Advanced Riptide
-- added Fangs Sword
-- upgraded Multishot bow
-- upgraded Lure
-- upgraded Looting
-- added Poison Aspect
-- added Strength Gift enchant
-- added Apple of Midas enchant
-- added Trigger command
-- added Shop
----------------------------------------------------------------------
+### Version 0.4 (Patch)
+* **Fixes:** * Resolved the persistent **step height issue** preventing players from smoothly walking/jumping between slabs and path blocks.
+* Cleaned up and removed legacy attribute files that were causing optimization issues.
 
- - 0.2.1 - 0.2.7 PATCH
- - Fixed issue with tooltip enchant was miss place due to one enchant name change.
- - Fixed auto craft.
- - Fixed Massive issue with random enchant, 
- - Fixed the issue with step_height. It was previously set to 0, which caused problems with slabs and stairs. It is now set to 0.5.
- - Fixed issue with speed boost 3 and jump boost 3
- - Fixed an issue with the auto-smelt feature where no blocks were being dropped.
- - Fixed issue with buying book now it doesn't require Op.
- - Curse attacker got renamed to chaos attacker enchanter. (Folder was mismatch fixed)
- - Now Texture pack is available
- - Wiki page is 100% Completed.
+---
 
----------------------------------------------------------------------
+### Version 0.3.1 (Patch)
+* **Optimization:** Resolved attribute-related lag issues and purged unnecessary files.
+* **Fixes:** Fixed metadata loading and versioning issues.
+* **Compatibility:** Attributes now apply directly to items with zero configuration required, drastically improving compatibility with other external enchantment mods and datapacks.
+* **Version Support:** Added official support for Minecraft 1.21.10.
 
-- 0.3 Update & Fix
-- Fixed all issues with enchantments for 1.21.11+
-- Added Glass Breaker (requires Silk Touch)
-- Added Lightning Sword
-- Added aura colors: Red, Orange, Yellow, Green, Blue, Purple, RGB
-- Added Baby Mode
-- Added Anti-Gravity
-- Updated tooltip_order.json and moved random book to last
-- Added Curse of Sound
-- Added Inquisitive
-- Expanded Loyalty Speed levels
-- Expanded Advanced Riptide levels
-- Added one more level to Equipment Drops Bonus
-- Expanded Mining Experience Bonus and fixed XP drop issue
-- Replaced Mob XP Bonus with Inquisitive
-- Added Self Repair
-- Added Darkrai enchant
-- Added Torrent enchant
-- Added Cresselia enchant
-- Added 11 Mob Slayer enchantments
-- Added Invisible Item Frame
-- Added Mute/Unmute for load message
-- Added Enchantment Upgrades system
-- Fixed head cosmetic issue
-- Added Spawner Breaker enchant
-- Added Mob Egg Grinder enchant
-- Added Auto Farmland
-- Added Auto Carrot Planter
-- Added Super Firework
-- Added Auto Potato, Wheat, and Beetroot
-- Added Compact Totem
+---
 
----------------------------------------------------------------------
+### Version 0.3 (Major Update & Fixes)
+* **Core Changes:** Fixed all baseline enchantment issues for **1.21.11+**.
+* **New Systems:** Added an **Enchantment Upgrades system** and a Mute/Unmute toggle for the mod’s load message.
+* **New Enchantments:**
+* `Glass Breaker` (Requires Silk Touch)
+* `Lightning Sword`
+* `Anti-Gravity`
+* `Self Repair`
+* `Darkrai`, `Torrent`, and `Cresselia` enchants
+* `Spawner Breaker` & `Mob Egg Grinder`
+* `Inquisitive` *(Replaced Mob XP Bonus)*
+* 11 unique `Mob Slayer` enchantments
+* **Curses & Fun Modes:** Added `Curse of Sound` and `Baby Mode`.
+* **Auras & Cosmetics:** Added **Invisible Item Frames** and new Aura Colors: *Red, Orange, Yellow, Green, Blue, Purple, and RGB*.
+* **Automation:** Added `Auto Farmland`, `Compact Totem`, `Super Firework`, and Auto-Planters for `Carrot`, `Potato`, `Wheat`, and `Beetroot`.
+* **Balancing & Scaling:**
+* Expanded levels for `Loyalty Speed` and `Advanced Riptide`.
+* Added an extra level to `Equipment Drops Bonus`.
+* Expanded `Mining Experience Bonus` and fixed its respective XP drop bugs.
+* Updated `tooltip_order.json` to move the random book to the very bottom.
+* **Fixes:** Fixed the head cosmetic issue.
 
-- 0.3.1 PATCH
-- Fixed metadata loading issues.
-- Resolved attribute-related lag issues.
-- Removed unnecessary files.
-- Added support to 1.21.10.
-- Fixed Version issue.
-- Attributes now apply directly to items (no configuration needed).
-- Improved compatibility with other enchantment mods and datapacks.
+---
+
+### Version 0.2.1 – 0.2.7 (Patches)
+* **Fixes:** * Fixed a massive bug involving the **Random Enchant** mechanic.
+* Fixed the `step_height` bug by adjusting the value from 0 to **0.5**, repairing broken pathing on slabs and stairs.
+* Fixed item drops for the `Auto-Smelt` feature.
+* Fixed `Speed Boost III` and `Jump Boost III`.
+* Fixed `Auto Craft`.
+* Fixed a tooltip misalignment caused by an enchantment name change.
+* Fixed permissions: Buying books no longer requires OP status.
+* **Renames:** Renamed `Cursed Attacker` to `Chaos Attacker Enchanter` (fixed mismatched folder paths).
+* **Community:** The official **Texture Pack** is now available, and the **Wiki page is 100% complete**!
+
+---
+
+### Version 0.2 (Key Enchants Update)
+* **Utility & Economy:** Added a `Shop`, a `Trigger command`, and an `Ore/Food Generator`.
+* **New Enchantments:**
+* `Regeneration`, `Exp Mastery`, `Saturation`, `Max Health`, `Unbreakable`.
+* `Fire Resistance I`, `Water Breathing`, `Dolphins Grace`, `Water Mining`.
+* `Fast Sweeping`, `Super Knockback`, `Burning Time`, `Advanced Efficiency`.
+* `Lucky` (Separate variants for Weapons and Fishing Rods).
+* `Mining Experience Bonus`, `Equipment Drop Bonus`.
+* `Poison Aspect`, `Strength Gift`, `Apple of Midas`.
+* `Fangs Sword`, `Trident Speed`, `Advanced Riptide`.
+* **Upgrades:** Upgraded `Multishot` (Bows), `Lure`, and `Looting`.
+* **Pet Enchants:** Added Pet Armor specific enchants (`Glowing`, `Regen`, `Health`, `Jump`, `Speed`) and `Pet Jump`.
+* **Curses:** Added `Curse of Slowness` and `Curse of Unluck`.
+* **Adjustments & Fixes:** * Fixed `Break Reach II` and item repair costs.
+* Improved overall performance and optimized the `Item Magnet`.
+* Added a head cosmetic enchant.
+* *Added, then promptly removed:* `Curse of Chat`.
+
+---
+
+### Version 0.1 (Initial Release)
+* **Core Framework:** Established initial version layout.
+* **Rarity System:** Implemented a Tiered Rarity system featuring custom enchantment weights, XP cost scaling, and rarity-based color tags:
+> Common | Rare | Epic | Ultimate | Legendary | Mythical | Special | Aura | Exclusive
+* **Launch Enchantments:** Introduced `Speed III`, `Haste III`, `Night Vision`, `Break Reach II`, and `Red Aura`.
