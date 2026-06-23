@@ -1,7 +1,7 @@
 ### Version 0.4 (Patch)
 * **Fixes:** * Resolved the persistent **step height issue** preventing players from smoothly walking/jumping between slabs and path blocks.
 * Cleaned up and removed legacy attribute files that were causing optimization issues.
-
+* Fixed enchantment loading issue (Cresselia/Darkrai)
 ---
 
 ### Version 0.3.1 (Patch)
